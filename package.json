@@ -1,0 +1,30 @@
+{
+  "name": "hospitales-backend",
+  "version": "1.0.0",
+  "description": "![Node JS - Express - Mongo DB](https://miro.medium.com/max/1200/0*11eDqY4zA04y2_n6.jpg)  \r # Backend | Sistema de Hospitales  \r Recuerden ejecutar:\r ```\r npm install\r ```",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandrotomassini/hospitales-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandrotomassini/hospitales-backend/issues"
+  },
+  "homepage": "https://github.com/leandrotomassini/hospitales-backend#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.6",
+    "nodemon": "^2.0.15"
+  }
+}

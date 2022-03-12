@@ -4,3 +4,24 @@ Recuerden ejecutar:
 ```
 npm install
 ```
+
+* [Express](https://expressjs.com/es/starter/installing.html) 
+* [Nodemon](https://www.npmjs.com/package/nodemon)
+* [Mongoose](https://mongoosejs.com/)
+* [Cors](https://www.npmjs.com/package/cors)
+* [DotEnv](https://www.npmjs.com/package/dotenv)
+* [BCrypt](https://www.npmjs.com/package/bcrypt)
+* [JWT](https://jwt.io/)
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
