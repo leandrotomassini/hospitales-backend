@@ -13,11 +13,14 @@ const HospitalSchema = Schema({
         type: Schema.Types.ObjectId,
         ref: 'Usuario'
     }
-}, { collection: 'hospitales' });
+}, {  collection: 'hospitales' });
 
-HospitalSchema.method('toJSON', function () {
+
+HospitalSchema.method('toJSON', function() {
     const { __v, ...object } = this.toObject();
     return object;
-});
+})
 
-module.exports = model('Hospital', HospitalSchema);
+
+
+module.exports = model( 'Hospital', HospitalSchema );
