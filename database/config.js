@@ -1,26 +1,16 @@
 const mongoose = require('mongoose');
+require('dotenv').config();
 
-
-const dbConnection = async() => {
-
+const dbConnection = async () => {
     try {
-        await mongoose.connect( process.env.DB_CNN , {
-            useNewUrlParser: true, 
-            useUnifiedTopology: true,
-            useCreateIndex: true
-        });
-
-        console.log('DB Online');
-        
+        await mongoose.connect(process.env.DB_CNN);
+        console.log('Base de datos online.');
     } catch (error) {
         console.log(error);
-        throw new Error('Error a la hora de iniciar la BD ver logs');
+        throw new Error('Error al iniciar la BD, revisar logs.')
     }
-
-
-}
-
+};
 
 module.exports = {
     dbConnection
-}
+};
